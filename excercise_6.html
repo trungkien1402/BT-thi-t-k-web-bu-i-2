@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+        
+    }
+    .block{
+        margin: auto;
+        width: 600px;
+        height: 500px;
+        background-color: aliceblue;
+        padding: 10px;
+        font-size: 20px;
+        
+    }
+    label{
+    padding-right: 50px ;
+    }
+    b{
+        font-size: 25px;
+    }
+    .content{
+        padding-top: 30px;
+    }
+</style>
+<body>
+    <div class="block">
+        <b>HTML Form Test</b>  
+        <div class="content">
+            <table>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name" placeholder="  "></td>
+            </tr>
+            <tr>
+                <td> <label for="address">Address</label></td>
+                <td><input type="text" id="address" name="address" placeholder="  "></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="text" id="email" name="email" placeholder="  "></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label></td>
+                <td><input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><label>Hobbies</label></td>
+                <td><input type="checkbox" id="sports" name="hobbies" value="sports">
+                <label for="sports">Sports</label></td>
+                <td><input type="checkbox" id="movies" name="hobbies" value="movies">
+                <label for="movies">Movies</label></td>
+                <td><input type="checkbox" id="travelling" name="hobbies" value="travelling">
+                <label for="travelling">Travelling</label></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td><select name="country" id="country" style="font-size: 20px;">
+                <option value="VietNam" style="font-size: 20px;">Việt Nam</option>
+                <option value="Nepal" style="font-size: 20px;">Nepal</option>
+                </select>
+                </td>
+            </tr>
+        </table>  
+        <table>
+            <tr>
+                <td><label for="noidung">Message</label></td>
+                <td><textarea name="noidung" id="noidung" rows="4" cols="50"></textarea></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
+                <td><button style="font-size: 20px;">Submit</button></td>
+                <td><button style="font-size: 20px;">Reset</button></td>
+            </tr>
+        </table>
+        </div>
+        
+    </div>
+</body>
+</html>
